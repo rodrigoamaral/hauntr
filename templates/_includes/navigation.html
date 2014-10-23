@@ -4,7 +4,7 @@
   {% endfor %}
   {% if DISPLAY_PAGES_ON_MENU %}
     {% for page in PAGES %}
-      <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
+      <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.slug }}</a></li>
     {% endfor %}
     {% if DISPLAY_CATEGORIES_ON_MENU %}
     {% for cat, null in categories %}
