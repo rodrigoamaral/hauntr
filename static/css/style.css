@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Serif);
+
 @font-face {
   font-family: 'FiraSans';
   font-style: normal;
@@ -168,8 +170,8 @@ html {
 body {
     height: 100%;
     max-height: 100%;
-    font-family: FiraSans, 'Noto Serif', serif;
-    font-size: 2.0rem;
+    font-family: 'PT Serif', 'Noto Serif', serif;
+    font-size: 2.2rem;
     line-height: 1.6em;
     color: #3A4145;
 }
@@ -501,7 +503,7 @@ h1.blog-title a:hover {
     color: #57A3E8;
 }
 
-.blog-description {
+.main-navigation, .blog-description {
     margin: 0;
     font-size: 1.8rem;
     line-height: 1.5em;
