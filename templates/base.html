@@ -24,6 +24,7 @@
         {% if SITESUBTITLE %}
             <h2 class="blog-description">{{ SITESUBTITLE }}</h2>
         {% endif %}
+        <nav role="navigation">{% include '_includes/navigation.html' %}</nav>
     </header>
     <main id="content" class="content" role="main">
         {% block content %}{% endblock %}

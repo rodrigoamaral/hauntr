@@ -472,7 +472,7 @@ margin on the iframe, cause it breaks stuff. */
     display: table;
     width: 100%;
     margin-bottom: 5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 1.6rem;
     text-align: center;
     background: none repeat scroll 0 0 #F7FAFB;
     border-bottom: 1px solid #EBF2F6;
@@ -509,6 +509,18 @@ h1.blog-title a:hover {
     font-family: FiraSans, 'Noto Serif', serif;
     letter-spacing: 0;
     text-shadow: 0 1px 3px rgba(0,0,0,0.15);
+}
+
+/* Navigation */
+.main-navigation {
+    text-align: center;
+    text-transform: lowercase;
+    margin: 0.4em 0;
+}
+
+.main-navigation li {
+    display: inline;
+    padding: 0.5em;
 }
 
 /* Every post, on every page, gets this style on its <article> tag */
