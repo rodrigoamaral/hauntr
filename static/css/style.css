@@ -515,6 +515,10 @@ h1.blog-title a:hover {
 }
 
 /* Navigation */
+ul.main-navigation {
+    padding-left: 0px;
+}
+
 .main-navigation {
     text-align: center;
     text-transform: lowercase;
